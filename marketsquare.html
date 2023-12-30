@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta
+      id="viewport"
+      name="viewport"
+      content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1,user-scalable=no"
+    />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+    <link rel="manifest" crossorigin="use-credentials" href="/app.webmanifest" />
+    <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#c9710b">
+    <link rel="shortcut icon" href="/images/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <script>
+      let html = document.querySelector("html");
+
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        html.dataset.theme = "dark"
+      } else {
+        html.dataset.theme = "light"
+      }
+    </script>
+
+    
+		<link href="./_app/immutable/assets/0.CYYkVUYX.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.XOqRqHGw.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.2vmdsppc.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.PqOxICUJ.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.-Yv8aCnH.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.0HuHagjb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.eLAHt3dB.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.5MYOUDCl.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/utils.FkBaGfnY.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores._GSMfgpH.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.QlrTg0iE.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/PrivateKeyInfo.crg3tdN3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CurrencyConverter.JjeTDkRk.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ShoppingCart.zvU4lHiI.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/shopping.HYDPEdxb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Quantity.YRyvFZb-.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Minus.b0sP7xD2.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ShippingOptions.5yoMSw42.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Email.iMOOqnwW.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/profile_picture_placeholder.0d-yZyxG.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Store.CEFXwr6Z.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Github.tAPxVNQX.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/8.j3nqvhzy.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Chat.U49MCIs4.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/VerificationMark.95_-Gkx8.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Nip05Checkmark.WfrkC49G.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/SendMessage.U2vh_8ek.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Title-h1.ksZwEtxJ.js"><title>Market Square</title><!-- HEAD_svelte-i4z0ti_START --><!-- HEAD_svelte-i4z0ti_END -->
+  </head>
+  <body>
+    <div style="display: contents">
+        <div class="h-screen pt-12 lg:pt-20 pb-20 mt-2"><nav class="fixed top-0 w-full backdrop-blur-3xl border-b border-gray-400/70 z-50" data-sveltekit-preload-data="hover"><div class="3xl:w-11/12 p-2 mx-auto lg:flex lg:flex-row flex-col md:justify-between md:items-center"><div class="flex items-center justify-between"><a href="/" rel="" class="flex items-center mr-2 indicator"><div class="flex items-center space-x-2"><img src="/images/logo.png" class="mr-3 h-9 rounded" alt="Plebeian Technology">  <h1 class="w-52 2xl:w-64 3xl:w-72 text-base lg:text-lg 2xl:text-xl font-bold hover:text-blue-400 duration-300" data-svelte-h="svelte-avgkt5">Plebeian Market</h1></div></a>  <div class="lg:flex items-right w-full"><div class="hidden lg:flex"><p class="ml-24 mr-8"><a href="/stalls" rel="" class="btn btn-ghost normal-case ">Stall Browser</a></p>  <p class="mr-8"><a href="/marketsquare" rel="" class="btn btn-ghost normal-case underline">Market Square</a></p> <p class="mr-8"><a href="/planet" rel="" class="btn btn-ghost normal-case ">Plebeian Planet</a></p> </div></div>  <div class="lg:hidden flex justify-end p-2 -mr-3"><button type="button" class="text-black-800 dark:text-gray-200 focus:outline-none" data-svelte-h="svelte-qc0yy8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path></svg></button> </div></div> <div class="right-0 mr-3 3xl:mr-5 hidden lg:block"><select class="px-2 select select-bordered w-full max-w-xs"><option value="SAT">Bitcoin (Satoshis)</option><option value="USD">US Dollar</option><option value="EUR">Euro</option><option value="GBP">GBP</option><option value="JPY">Yen</option><option value="CAD">Canadian Dollar</option></select></div> <div class="lg:flex lg:flex-row flex-col justify-center space-y-0  hidden"><div class="lg:flex items-center justify-start 3xl:space-x-2"><div class="float-right"><div class="right-0 lg:hidden"><select class="px-2 select select-bordered w-full max-w-xs"><option value="SAT">Bitcoin (Satoshis)</option><option value="USD">US Dollar</option><option value="EUR">Euro</option><option value="GBP">GBP</option><option value="JPY">Yen</option><option value="CAD">Canadian Dollar</option></select></div> <label tabindex="0" class="swap swap-rotate mr-2 3xl:mr-3"><input type="checkbox"> <div class="swap-off size-8 3xl:size-9"><svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"></path></svg></div> <div class="swap-on size-8 3xl:size-9"><svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"></path></svg></div></label> <div class="btn btn-ghost btn-circle mr-1 3xl:mr-3"><div class="indicator"><div class="size-8 3xl:size-9"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path></svg></div> <div class="tooltip tooltip-bottom tooltip-secondary" data-tip="Login clicking here" data-svelte-h="svelte-xpdsq6"><span class="indicator-item badge badge-sm badge-secondary">!</span></div></div></div> <div class="dropdown dropdown-end mr-1 3xl:mr-3"><label tabindex="0" class="btn btn-ghost btn-circle"><div class="size-7 3xl:size-8 focus:outline-none indicator"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path></svg> </div></label> <div tabindex="0" class="!fixed lg:float w-[97%] lg:w-fit mt-0 mr-1 bg-base-300 card card-compact card-bordered border-black dark:border-white dropdown-content shadow-xl z-50"><div class="card-body !px-2"><div class="md:grid justify-center"><div class="p-6 text-lg w-64" data-svelte-h="svelte-wynyo7"><p>The shopping cart is empty.</p> <p class="mt-4">You can <a class="text-blue-500" href="/stalls">browse stalls</a> and buy some products.</p> <p class="mt-4">You can check the <a class="text-blue-500" href="/orders">Orders</a> screen to check the status of your orders.</p></div></div>  <div class="md:grid justify-center"></div></div></div></div></div> <div class="lg:dropdown lg:dropdown-end h-screen lg:h-fit clear-both"> <label tabindex="0" class="btn btn-circle swap swap-rotate hidden md:grid" data-svelte-h="svelte-1vhobe0"> <input type="checkbox">  <svg class="swap-off fill-current w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"></path></svg>  <svg class="swap-on fill-current w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"></polygon></svg></label> <ul role="menuitem" tabindex="0" class="float-right right-2 w-60 z-40 p-2 shadow menu menu-compact dropdown-content bg-base-300 text-accent-contend rounded-box md:border border-neutral-300"><li class="text-primary"><a class="modal-button cursor-pointer text-base"><span class="w-6 h-6 mr-1 stroke-primary"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="text-primary" class="stroke-primary"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z"></path></svg></span> <b data-svelte-h="svelte-fcn0yp">Login</b></a></li> <li class="block md:hidden md:h-0"><a href="/planet" rel="" class="modal-button cursor-pointer text-base"><div class="w-6 h-6 mr-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"></path></svg></div> Plebeian Planet</a></li>     <li class="block md:hidden md:h-0 menu-title mt-1" data-svelte-h="svelte-u1npi6"><span class="text-lg">Community</span></li> <li class="block md:hidden md:h-0"><a href="/" rel="" class="modal-button cursor-pointer text-base"><span class="w-6 h-6 mr-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg></span> Home</a></li> <li class="block md:hidden md:h-0"><a href="/stalls" rel="" class="modal-button cursor-pointer text-base"><div class="w-6 h-6 mr-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z"></path></svg></div> Stall Browser</a></li>  <li class="block md:hidden md:h-0"><a href="/marketsquare" rel="" class="modal-button cursor-pointer text-base"><div class="w-6 h-6 mr-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"></path></svg></div> Market Square</a></li>  <li><a href="/faq" rel="" class="modal-button cursor-pointer text-base"><span class="w-6 h-6 mr-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path></svg></span> FAQ</a></li> <li><a href="/contact" rel="" class="text-base"><div class="w-6 h-6 mr-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"></path></svg></div> Contact</a></li> <li><a href="/about" rel="" class="modal-button cursor-pointer text-base"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z"></path></svg>
+                                About</a></li> </ul></div></div></div></div></nav>   <input type="checkbox" id="modal-toggle" class="modal-toggle"> <div class="modal"><div class="modal-box relative flex justify-center items-center w-10/12 max-w-1xl"><label for="modal-box" class="btn btn-sm btn-circle absolute right-2 top-2 hidden" data-svelte-h="svelte-9474zl">✕</label> <div class="w-full"></div></div></div> <div class="mx-auto mb-6 min-h-[80%]  w-11/12 md:w-10/12">  <h1 class="p-4 mt-4 md:mt-12 mb-4 md:mb-12 text-center text-3xl lg:text-3xl">Market Square</h1> <div tabindex="0" class="collapse collapse-plus border border-gray-400/70 bg-base-100 rounded-box mb-4 lg:grid"><input type="checkbox"> <div class="collapse-title text-l font-medium" data-svelte-h="svelte-1y7hq7y"><b>Nostr</b> powered chat. Click here to see more info</div> <div class="collapse-content"><p class="mb-4">Nostr channel ID: dd7aee9576b3d85287c37808cec29260d1a97e83bee4f15153d52851ff7db719</p></div></div> <div class="flex flex-col mt-2 mb-6 pb-6 bg-cover bg-top bg-info-content-200 gap-2 overflow-x-hidden overflow-y-auto w-full" style="background-size: 5px 5px; background-image: radial-gradient(hsla(var(--bc)/.2) 0.5px,hsla(var(--b2)/1) 0.5px);" id="chatScrollableDiv"><div></div></div> <div class="grid grid-cols-2 w-full lg:w-1/3 mx-auto p-3 inset-x-0 bottom-0 bg-black rounded-lg items-center fixed"> <div class="flex col-span-2"><textarea rows="1" id="nostrMessageSendText" autofocus placeholder="Type your message" class="p-2 w-full bg-medium placeholder:text-light outline-0 resize-none"></textarea> <div class="p-4 flex justify-center hover:scale-110 duration-300 transition-all cursor-pointer text-white"><div class="w-6 h-6"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"></path></svg></div></div></div></div></div>  <div class="toast-container bottom-right svelte-s8abgz" style="width: 320px"><ul class="svelte-s8abgz"></ul> </div><div class="toast-container bottom-left svelte-s8abgz" style="width: 320px"><ul class="svelte-s8abgz"></ul> </div><div class="toast-container top-right svelte-s8abgz" style="width: 320px"><ul class="svelte-s8abgz"></ul> </div><div class="toast-container top-left svelte-s8abgz" style="width: 320px"><ul class="svelte-s8abgz"></ul> </div><div class="toast-container top-center svelte-s8abgz" style="width: 320px"><ul class="svelte-s8abgz"></ul> </div><div class="toast-container bottom-center svelte-s8abgz" style="width: 320px"><ul class="svelte-s8abgz"></ul> </div><div class="toast-container center-center svelte-s8abgz" style="width: 320px"><ul class="svelte-s8abgz"></ul> </div></div>    <div class="modal"><div class="modal-box relative flex justify-center items-center w-11/12 max-w-5xl p-6 lg:p-9"><label class="btn btn-sm btn-circle absolute right-2 top-2" data-svelte-h="svelte-n5qjda">✕</label> <div class="w-full" id="loginDiv"></div></div></div> 
+			
+			<script>
+				{
+					__sveltekit_1p426fx = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: null
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.XOqRqHGw.js"),
+						import("./_app/immutable/entry/app.-Yv8aCnH.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 8],
+							data,
+							form: null,
+							error: null
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('./service-worker.js');
+						});
+					}
+				}
+			</script>
+		
+    </div>
+  </body>
+</html>
